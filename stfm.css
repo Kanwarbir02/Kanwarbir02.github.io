@@ -1,0 +1,106 @@
+body{
+	margin-top: 2%;
+	background-image: url(bgimg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+img{
+	height: 300px;
+	width: 300px;
+	transition: all 0.5s;
+	display: block;
+    margin-left: auto;
+  	margin-right: auto;
+}  	
+
+img:hover{
+	transform: scale(1.12);
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+	cursor: default;
+	font-size: 2em;
+}
+
+p:hover{
+	text-decoration: underline;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+form{
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 10px;
+}
+
+.idem{
+	color: black;
+	width: 600px;
+	height: 28px;
+	transition: all 0.5s;
+}
+
+.idem:hover{
+	border: 1px 1px 1px 1px #031F5F;
+	opacity: 80%;
+	box-shadow: 1px 1px 1px 1px blue;
+}
+
+.endin input{
+	width: 150px;
+	height: 25px;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 2px 2px black;
+	margin-top: 10px;
+	transition: all 1s;
+}
+
+.endin input:hover{
+	background-color: rgba(255, 252, 22, 0.4);
+	box-shadow: 2px 2px blue;
+}
+
+.contents{
+	display: flex;
+	justify-content: center;
+}
+
+.content-item img{
+	width:150px;
+	height: 150px;
+	margin: 20px;
+	content: "";
+}
+
+hr{
+	border-color: black;
+	max-width: 600px;
+	height: 3px;
+}
+
+.foot{
+	display: flex;
+	cursor: pointer;
+	margin-top: 20px;
+	color: rgba(24, 34, 57, 1);
+	font-size: 2.2em;
+	text-decoration: none;
+	justify-content: center;
+}
+
+.foot:hover{
+	text-decoration: underline #182239;
+	color: black;
+}
